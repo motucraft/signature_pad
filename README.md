@@ -1,1 +1,27 @@
 # signature_pad
+
+## Create Cert (self-signed certificate)
+
+### Create a key
+
+```shell
+$ openssl genrsa -out key.pem 2048
+```
+
+### Create certificate signin request
+
+```shell
+$ openssl req -new -sha256 -key key.pem -out csr.csr
+```
+
+### Create certificate
+
+```shell
+$ openssl req -x509 -sha256 -days 365 -key key.pem -in csr.csr -out certificate.pem
+```
+
+### Convert to .pfx file (PBE-SHA1-3DES Algorithm)
+
+```shell
+$ openssl pkcs12 -keypbe PBE-SHA1-3DES -certpbe PBE-SHA1-3DES -export -in certificate.pem -inkey key.pem -out certificate.pfx -name "alias"
+```
