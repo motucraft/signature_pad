@@ -30,3 +30,6 @@ $ openssl pkcs12 -keypbe PBE-SHA1-3DES -certpbe PBE-SHA1-3DES -export -in certif
 
 https://github.com/motucraft/signature_pad/assets/35750184/cb0ee5b9-90ce-4e7c-890c-2c562136dbae
 
+## Signatured PDF
+
+![signatured_pdf](https://github.com/motucraft/signature_pad/assets/35750184/05c37347-6431-45ba-891e-830ef383290a)
