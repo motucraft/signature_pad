@@ -25,3 +25,8 @@ $ openssl req -x509 -sha256 -days 365 -key key.pem -in csr.csr -out certificate.
 ```shell
 $ openssl pkcs12 -keypbe PBE-SHA1-3DES -certpbe PBE-SHA1-3DES -export -in certificate.pem -inkey key.pem -out certificate.pfx -name "alias"
 ```
+
+## Application Behavior
+
+https://github.com/motucraft/signature_pad/assets/35750184/cb0ee5b9-90ce-4e7c-890c-2c562136dbae
+
