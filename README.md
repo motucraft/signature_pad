@@ -34,4 +34,4 @@ https://github.com/motucraft/signature_pad/assets/35750184/cb0ee5b9-90ce-4e7c-89
 
 ## Digitally signed PDF
 
-![digitally_signed_pdf](https://github.com/motucraft/signature_pad/assets/35750184/7fbc42ce-71a6-4473-ad1f-fe4973e995e7)
+![digitally_signed_pdf](https://github.com/motucraft/signature_pad/assets/35750184/400ab67e-0332-4126-b0b9-47365571468c)
