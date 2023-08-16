@@ -43,5 +43,3 @@ However, certificate.pfx is an SSL certificate archive file where the private ke
 
 Even if it's password-protected, this represents a risk of the private key being leaked, and it is something that should probably be avoided.
 This process should be handled in the backend.
-
-I wonder what Syncfusion's take is on this?
